@@ -1,14 +1,14 @@
   
 // Escreva uma função comprimentoMedioPalavras que receba duas strings e devolva o comprimento médio de ambas as strings.
-// Exemplo de entrada:
-// console.log(comprimentoMedioPalavras('xuxu', 'bananada')); // --> 6
+// // Exemplo de entrada:
+// // console.log(comprimentoMedioPalavras('xuxu', 'bananada')); // --> 6
 
-function comprimentoMedioPalavras(valor1, valor2){
-  let comprimento = (valor1.length + valor2.length )/ 2
-    return comprimento;
+// function comprimentoMedioPalavras(valor1, valor2){
+//   let comprimento = (valor1.length + valor2.length )/ 2
+//     return comprimento;
 
-}
-console.log(comprimentoMedioPalavras('celular', 'água'))
+// }
+// console.log(comprimentoMedioPalavras('celular', 'água'))
 
 /////////////////////////////////
 
@@ -21,24 +21,44 @@ console.log(comprimentoMedioPalavras('celular', 'água'))
 // console.log(pegaElemento([1, 3, 5], 1);
 
 // function pegaElemento(arr, elemento1){
+//     if( arr.lenght === 0){
+//         return 'undefined'
+//       }else{
+//         return arr[elemento1];
+//       }
 
+//       }
+  
+
+//     console.log(pegaElemento([1, 3, 5], 2));
+
+
+// /////////////////////////////////
+
+
+// // Escreva uma função chamada credencialEhValida.
+// // Dado um nome e uma senha, credencialEhValida retorna true se o nome contiver mais do que 3 caracteres e a senha, pelo menos 8 caracteres. Caso contrário, retorna false.
+
+// // Exemplo:
+// // console.log(credencialEhValida('Xuxu', 'minhasenha'));
+
+// function credencialEhValida(nome, senha){
+//   if( nome.lenght >= 3 || senha.length >= 8 ){
+//     return true
+//   }else{
+//     return false
+//   }
 // }
+// console.log(credencialEhValida('Paula', 'lala'));
 
-/////////////////////////////////
+// /////////////////////////////////
 
+// // Dada uma lista de inteiros não negativos e o resultado desejado de uma soma, encontre dois números na lista cuja soma seja o resultado desejado.
 
-// Escreva uma função chamada credencialEhValida.
-// Dado um nome e uma senha, credencialEhValida retorna true se o nome contiver mais do que 3 caracteres e a senha, pelo menos 8 caracteres. Caso contrário, retorna false.
+// // Exemplo:
+// // console.log(encontrarParDaSoma([3, 34, 4, 12, 5, 2], 9); // --> [4, 5]
 
-// Exemplo:
-// console.log(credencialEhValida('Xuxu', 'minhasenha'));
-
-/////////////////////////////////
-
-// Dada uma lista de inteiros não negativos e o resultado desejado de uma soma, encontre dois números na lista cuja soma seja o resultado desejado.
-
-// Exemplo:
-// console.log(encontrarParDaSoma([3, 34, 4, 12, 5, 2], 9); // --> [4, 5]
+// function encontrarParDaSoma()
 
 /////////////////////////////////
 
@@ -106,4 +126,3 @@ console.log(comprimentoMedioPalavras('celular', 'água'))
 
 // Escreva uma função que busque um elemento em um vetor ordenado usando o algoritmo de busca binária.
 
-// const numerosOrdenados = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
